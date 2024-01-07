@@ -213,6 +213,11 @@ margin-bottom: 50px;
 }
 .foot-container {
   margin-top: 60px;
-margin-bottom: 90px;
+margin-bottom: 60px;
 margin-left: 215px;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
