@@ -126,7 +126,7 @@ table {
 }
 .sec-h {
 
-  padding-top: 70px;
+
   font-size: 36px;
   font-weight: 700;
   line-height: 1.8;
@@ -244,6 +244,7 @@ margin-bottom: 50px;
   list-style: none;
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
 .mail-item  h3 {
