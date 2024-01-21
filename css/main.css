@@ -137,14 +137,13 @@ table {
 .div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
 }
 .main_sec_divv {
   justify-content: center;
 }
 .container-img {
-  margin-top: 50px;
+
   margin-bottom: 94px;
   display: flex;
   justify-content: space-between;
