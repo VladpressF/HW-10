@@ -167,7 +167,7 @@ margin-bottom: 50px;
 .secc-figure {
   display: inline-block;
   vertical-align: middle;
-  /* padding-bottom: 100px; */
+  margin: 0;
 }
 .container-figure {
   padding-bottom: 94px;
