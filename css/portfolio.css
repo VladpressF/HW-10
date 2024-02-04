@@ -38,7 +38,7 @@
   text-align: left;
   text-decoration: none;
   color: rgba(33, 33, 33, 1);
-  box-shadow: 1px 1px 10px;
+  
 }
 
 .webstudio1 {
@@ -47,7 +47,7 @@
   line-height: 2;
   color: rgba(33, 150, 243, 1);
   text-decoration: none;
-  box-shadow: 1px 1px 10px;
+ 
 }
 
 .mail1 {
@@ -59,7 +59,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
-  box-shadow: 1px 1px 10px;
+
 }
 
 .tel1 {
@@ -71,7 +71,7 @@
   text-align: left;
   text-decoration: none;
   color: rgba(117, 117, 117, 1);
-  box-shadow: 1px 1px 10px;
+ 
 }
 
 .studio:hover {
@@ -87,7 +87,7 @@
   text-align: left;
   text-decoration: none;
   color: rgba(33, 33, 33, 1);
-  box-shadow: 1px 1px 10px;
+
 }
 
 .portfolio22:hover {
@@ -103,7 +103,7 @@
   text-align: left;
   text-decoration: none;
   color: rgba(33, 33, 33, 1);
-  box-shadow: 1px 1px 10px;
+
 }
 .kontakti:hover {
   color: rgba(33, 150, 243, 1);
@@ -181,6 +181,7 @@
 }
 
 .texnokrak {
+  
   font-family: "Roboto" , sans-serif;
   font-weight: 900;
   color: rgba(33, 33, 33, 1);
@@ -356,7 +357,8 @@
 }
 .figures {
   border: 1px solid gray;
-  box-shadow: 10px 3px 10px;
+  width: 24%;
+
 }
 .foot-container-1 {
   font-family: "Roboto" , sans-serif;
