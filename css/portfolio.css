@@ -356,8 +356,9 @@
   margin: 0;
 }
 .figures {
-  border: 1px solid gray;
-  width: 24%;
+  margin-bottom: 94px;
+  border: 1px solid rgba(238, 238, 238, 1) ;
+  width: 31%;
 
 }
 .foot-container-1 {
@@ -392,4 +393,22 @@
   text-align: left;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  
+}
+.figures img {
+  width: 100%;
+}
+.figures figcaption {
+  padding: 0 0 0 24px;
+}
+.foot-img {
+  padding: 60px;
+padding-bottom: 0;
+}
+.foot-adr {
+  padding-bottom: 60px;
+  padding-left: 215px;
+}
+.foot-imgg {
+  padding-left: 150px;
 }
