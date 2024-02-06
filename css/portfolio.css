@@ -181,14 +181,13 @@
 }
 
 .texnokrak {
-  
-  font-family: "Roboto" , sans-serif;
-  font-weight: 900;
   color: rgba(33, 33, 33, 1);
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  text-align: left;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+
 }
 .vtexnokrak {
   font-size: 16px;
@@ -201,12 +200,12 @@
 }
 .poster1 {
   color: rgba(33, 33, 33, 1);
-  font-size: 18px;
-  font-family: "Roboto" , sans-serif;
-  font-weight: 900;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  text-align: left;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+  
 }
 .poster1-2 {
   font-size: 16px;
@@ -219,12 +218,12 @@
 }
 .poster2 {
   color: rgba(33, 33, 33, 1);
-  font-size: 18px;
-  font-family: "Roboto" , sans-serif;
-  font-weight: 900;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  text-align: left;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+
 }
 .poster2-2 {
   font-size: 16px;
@@ -238,11 +237,12 @@
 .poster3 {
   color: rgba(33, 33, 33, 1);
   font-size: 18px;
-  font-family: "Roboto" , sans-serif;
-  font-weight: 900;
-  line-height: 2;
+  font-weight: 700;
+  line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
+
+
 }
 .poster3-2 {
   color: rgba(117, 117, 117, 1);
@@ -256,9 +256,8 @@
 .poster4 {
   color: rgba(33, 33, 33, 1);
   font-size: 18px;
-  font-family: "Roboto" , sans-serif;
-  font-weight: 900;
-  line-height: 2;
+  font-weight: 700;
+  line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
 }
@@ -274,9 +273,8 @@
 .poster5 {
   color: rgba(33, 33, 33, 1);
   font-size: 18px;
-  font-family: "Roboto" , sans-serif;
-  font-weight: 900;
-  line-height: 2;
+  font-weight: 700;
+  line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
 }
@@ -292,9 +290,8 @@
 .poster6 {
   color: rgba(33, 33, 33, 1);
   font-size: 18px;
-  font-family: "Roboto" , sans-serif;
-  font-weight: 900;
-  line-height: 2;
+  font-weight: 700;
+  line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
 }
@@ -310,9 +307,8 @@
 .poster7 {
   color: rgba(33, 33, 33, 1);
   font-size: 18px;
-  font-family: "Roboto" , sans-serif;
-  font-weight: 900;
-  line-height: 2;
+  font-weight: 700;
+  line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
 }
@@ -328,9 +324,8 @@
 .poster8 {
   color: rgba(33, 33, 33, 1);
   font-size: 18px;
-  font-family: "Roboto" , sans-serif;
-  font-weight: 900;
-  line-height: 2;
+  font-weight: 700;
+  line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
 }
@@ -354,19 +349,22 @@
   justify-content: center;
   display: flex;
   margin: 0;
+  margin-bottom: 40px;
 }
 .figures {
+  margin: 0;
   margin-bottom: 94px;
   border: 1px solid rgba(238, 238, 238, 1) ;
   width: 31%;
+  
 
 }
 .foot-container-1 {
   font-family: "Roboto" , sans-serif;
   font-weight: 300;
   background-color: rgba(47, 48, 58, 1);
-  padding-bottom: 10px;
-  padding-top: 20px;
+  padding-bottom: 62px;
+  padding-top: 59px;
 }
 .adress1 {
   color: white;
@@ -401,14 +399,4 @@
 .figures figcaption {
   padding: 0 0 0 24px;
 }
-.foot-img {
-  padding: 60px;
-padding-bottom: 0;
-}
-.foot-adr {
-  padding-bottom: 60px;
-  padding-left: 215px;
-}
-.foot-imgg {
-  padding-left: 150px;
-}
+
