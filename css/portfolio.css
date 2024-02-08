@@ -1,26 +1,8 @@
-@font-face {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400 ;
-  src: url(/Roboto/Roboto-Regular.ttf);
-}
-@font-face  {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  src: url(/Roboto/Roboto-Bold.ttf);
-}
-@font-face {
-  font-family: "Roboto" , sans-serif;
-  font-weight: 900;
-  src: url(/Roboto/Roboto-Black.ttf);
-}
-@font-face {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  src: url(/Roboto/Roboto-Medium.ttf);
-}
+
 *{
   font-weight: "Roboto", sans-serif;
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 .top-container {
@@ -341,7 +323,7 @@ text-align: left;
 .sec2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 30px ;
 }
 
 .container-for-button123 {
@@ -353,10 +335,10 @@ text-align: left;
 }
 .figures {
   margin: 0;
-  margin-bottom: 94px;
+  flex-basis: calc((100% - 60px) / 3);
   border: 1px solid rgba(238, 238, 238, 1) ;
-  width: 31%;
-  
+  gap: 30px ;
+
 
 }
 .foot-container-1 {
