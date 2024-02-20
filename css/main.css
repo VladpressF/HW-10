@@ -22,7 +22,7 @@ body {
   color: #212121;
   vertical-align: top;
 }
-.header-nav-item_active a {
+.header-nav-item_active a {ƒ
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
@@ -60,8 +60,22 @@ body {
 .efektivni {
   padding: 200px 0;
   background-color: #2f303a;
+background-image:
+ linear-gradient(
+  to bottom,
+  rgba(47, 48, 58, 0.4) ,
+  rgba(47, 49, 60, 0.4)
+ )
+ ,
+url("../Img/overlay.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
 }
+
 .main-h {
+ 
 text-align: center;
   color: white;
   font-size: 44px;
@@ -168,7 +182,17 @@ margin-bottom: 50px;
   display: inline-block;
   vertical-align: middle;
   margin: 0;
+  box-shadow:  0 2px 5px 2px    rgba(0, 0, 0, 0.14);
+ 
 }
+.secc-figure figcaption {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+
+
+
 .container-figure {
   padding-bottom: 94px;
   display: flex;
