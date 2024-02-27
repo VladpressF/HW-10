@@ -320,6 +320,7 @@ text-align: left;
   letter-spacing: 0.03em;
   text-align: left;
 }
+
 .sec2 {
   display: flex;
   flex-wrap: wrap;
@@ -338,8 +339,6 @@ text-align: left;
   flex-basis: calc((100% - 60px) / 3);
   border: 1px solid rgba(238, 238, 238, 1) ;
   gap: 30px ;
-
-
 }
 .foot-container-1 {
   font-family: "Roboto" , sans-serif;
@@ -381,4 +380,16 @@ text-align: left;
 .figures figcaption {
   padding: 0 0 0 24px;
 }
+.figures:hover {
+  box-shadow:  0 2px 0 1px rgba(33, 33, 33, 25%);
+}
+.figs {
+  margin-bottom: 94px;
+}
+.but:hover {
+  box-shadow: 0 3px 0 1px rgba(33, 33, 33, 10%);
+}
+
+
+
 
