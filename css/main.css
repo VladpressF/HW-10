@@ -333,3 +333,77 @@ table {
   width: 370px;
 }
 
+.span-icons i {
+  color: gray;
+  width: 50px;
+  height: 500px;
+  padding: 10px;
+
+
+}
+.span-icons i:hover {
+  background-color: #2196f3;
+}
+.section-four-link-list {
+  display: flex;
+  justify-content: space-evenly;
+  }
+  .section-four-link-item {
+  display: inline-block;
+  color: #AFB1B8;
+  text-decoration: none;
+  padding: 10px;
+  }
+  
+  .section-four-link-item:hover{
+  color: #ffffff;
+  background-color: #4b91f7;
+  }
+  .regular-clients {
+    height: 150px;
+  }
+  .mainn-h1 {
+    text-align: center;
+  }
+.regular-clients-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.regular-clients-item  i {
+
+   font-size: 50px;
+   width: 100%;
+   color: #AFB1B8;
+ 
+}
+
+  .regular-clients-link i:hover {
+    outline: 2px solid #4b91f7;
+    color: #4b91f7;
+  }
+  .regular-clients-link:hover.regular-clients i {
+    color: #4b91f7;
+  }
+ .foot-h3 {
+  color: white;
+  text-align: center;
+
+  }
+  .foot-list i {
+    color: white;
+    border: 10px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px 10px;
+  }
+.foot-list {
+  display: inline-block;
+  margin-left: 515px;
+
+}
+.foot-wrap {
+  display: flex;
+}
+
+  
+
