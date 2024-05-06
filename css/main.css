@@ -48,6 +48,7 @@ body {
   display: flex;
   justify-content: right;
   padding-right: 20px;
+  text-decoration: none;
 }
 
 .header-tel {
@@ -58,6 +59,7 @@ body {
   display: flex;
   justify-content: right;
   padding-right: 20px;
+  text-decoration: none;
 }
 
 .header-tel:hover {
@@ -353,6 +355,7 @@ table {
   color: #AFB1B8;
   text-decoration: none;
   padding: 10px;
+  margin-top: 10px;
   }
   
   .section-four-link-item:hover{
@@ -373,9 +376,11 @@ table {
 
 .regular-clients-item  i {
 
-   font-size: 50px;
+   font-size: 70px;
    width: 100%;
    color: #AFB1B8;
+   height: 100%;
+   
  
 }
 
@@ -389,6 +394,7 @@ table {
  .foot-h3 {
   color: white;
   text-align: center;
+  padding-left: 100px;
 
   }
   .foot-list i {
@@ -396,14 +402,19 @@ table {
     border: 10px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px 10px;
   }
-.foot-list {
-  display: inline-block;
-  margin-left: 515px;
-
-}
+  .foot-list {
+    padding-left: 100px;
+  }
 .foot-wrap {
   display: flex;
 }
+.icon-envelope {
+  padding-right: 5px;
+}
+.icon-smartphone {
+  padding-right: 5px;
+}
+
 
   
 
