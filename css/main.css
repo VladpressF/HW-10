@@ -361,6 +361,8 @@ table {
   .section-four-link-item:hover{
   color: #ffffff;
   background-color: #4b91f7;
+  border: 0px;
+  border-radius: 15px 15px;
   }
   .regular-clients {
     height: 150px;
@@ -387,6 +389,7 @@ table {
   .regular-clients-link i:hover {
     outline: 2px solid #4b91f7;
     color: #4b91f7;
+
   }
   .regular-clients-link:hover.regular-clients i {
     color: #4b91f7;
