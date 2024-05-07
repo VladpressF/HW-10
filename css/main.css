@@ -385,9 +385,13 @@ table {
    
  
 }
+.regular-clients-link {
+  text-decoration: none;
+
+}
 
   .regular-clients-link i:hover {
-    outline: 2px solid #4b91f7;
+    outline: 1px solid #4b91f7;
     color: #4b91f7;
 
   }
@@ -403,7 +407,7 @@ table {
   .foot-list i {
     color: white;
     border: 10px solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px 10px;
+    border-radius: 50%;
   }
   .foot-list {
     padding-left: 100px;
@@ -416,6 +420,15 @@ table {
 }
 .icon-smartphone {
   padding-right: 5px;
+}
+.regular-clients-item i {
+
+  border: 1px solid  rgba(175, 177, 184, 1);
+}
+.foot-list-link i:hover {
+  background-color: rgba(33, 150, 243, 1);
+  color: white;
+  
 }
 
 
