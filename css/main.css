@@ -358,15 +358,17 @@ table {
   border-radius: 15px 15px;
 }
 .regular-clients {
-  height: 150px;
+  height: 200px;
 }
 .mainn-h1 {
   text-align: center;
+  padding-bottom: 50px;
 }
 .regular-clients-list {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
+
 }
 
 .regular-clients-item i {
@@ -377,6 +379,7 @@ table {
 }
 .regular-clients-link {
   text-decoration: none;
+  
 }
 
 .regular-clients-link i:hover {
@@ -422,7 +425,7 @@ table {
 }
 .thumb-p {
   position: relative;
-  top: 210px;
+  top: 202px;
   font-size: 18px;
 font-weight: 700;
 

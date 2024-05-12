@@ -1,13 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-body {
-
-    font-family: "Roboto", sans-serif;
-}
 
 .backdrop {
     position: fixed;
@@ -53,7 +44,7 @@ body {
 }
 
 .form {
-    width: 528px;
+    width: 500px;
 }
 
 
