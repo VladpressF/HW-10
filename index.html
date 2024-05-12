@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/modal.css">
   <!-- ШРИФТИ -->
   <link rel="stylesheet" href="icons/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,7 +41,8 @@
           ЕФЕКТИВНІ РІШЕННЯ <br />
           ДЛЯ ВАШОГО БІЗНЕСУ
         </h1>
-        <button class="main-button" type="button">Замовити Послугу</button>
+        <button class="main-button"   type="button" data-modal-open >Замовити Послугу</button>
+        
 
       </div>
     </section>
@@ -241,6 +243,43 @@
     </div>
 
   </footer>
+
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="btn" data-modal-close >&#215;</button>
+      <form action="" class="form">
+        <h1 class="form-title">Залиште свої дані, ми вам передзвонимо</h1>
+        <label>
+          <p>Ім'я</p>
+          <input class="form-input form-input-first" type="text" name="name" placeholder="" mainless="3"
+            maxlength="20" required pattern="^[a-zA-Zа-яА-ЯіІїЇєЄ']{2,30}$"
+            title="Username must be two words separated by space.">
+        </label>
+        <label>
+          <p>Телефон</p>
+          <input class="form-input form-input-second" type="tel" name="tel" placeholder="" required min="10"
+            max="20" pattern="\+380\d{9}">
+        </label>
+        <label>
+          <p>Пошта</p>
+          <input class="form-input form-input-third" type="email" name="email" placeholder=""
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+        </label>
+        <label>
+          <p>Коментарі</p>
+          <textarea class="form-input" name="message" id="" cols="30" rows="10"
+            placeholder="Введіть текст"></textarea>
+        </label>
+        <label for="agreeCheckbox">
+          <input type="checkbox" id="agreeCheckbox">
+          Погоджуюся з розсилкою та приймаю <a href="#" class="checkbox-link">Умови договору</a>
+        </label>
+        <button class="form-btn" type="button">Відправити</button>
+      </form>
+    </div>
+</div>
+<script href="modal.js"></script> 
+
 </body>
 
 </html>
