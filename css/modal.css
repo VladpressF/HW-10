@@ -52,7 +52,7 @@
 
 .btn {
     position: fixed;
-    top: 8px;
+    top: 50px;
     right: 8px;
     width: 30px;
     height: 30px;
@@ -62,6 +62,7 @@
     color: #000000;
     font-size: 20px;
     cursor: pointer;
+
 }
 
 .btn:hover {
@@ -142,12 +143,10 @@ label {
     color: #fff;
     font-weight: 700;
     font-size: 16px;
-    line-height: 187%;
-    letter-spacing: 1.5px;
     border: 0;
     padding: 10px 52px;
     border-radius: 4px;
-    margin-top: 23px;
+    margin-top: 10px;
     cursor: pointer;
 }
 

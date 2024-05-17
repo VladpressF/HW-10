@@ -232,9 +232,11 @@ table {
 }
 
 .footer {
+  position: relative;
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #2f303a;
+  height: 200px ;
 }
 
 .footer address {
@@ -365,7 +367,7 @@ table {
   padding-bottom: 50px;
 }
 .regular-clients-list {
-  display: flex;
+  display: flex; 
   list-style-type: none;
   justify-content: space-between;
 
@@ -373,16 +375,20 @@ table {
 
 .regular-clients-item i {
   font-size: 70px;
-  width: 100%;
+  width: 250px;
   color: #afb1b8;
-  height: 100%;
+  height: 250px;
+  border: 0px ;
+  border-radius: 10px 10px;
+
 }
 .regular-clients-link {
   text-decoration: none;
-  
+
 }
 
 .regular-clients-link i:hover {
+
   outline: 1px solid #4b91f7;
   color: #4b91f7;
 }
@@ -448,4 +454,66 @@ font-weight: 700;
   
 
 }
+.footer-form{
+  margin-right: 50px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  float: right;
+  
+}
+
+.footer-form-header{
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 114%;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.footer-form-wrap{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-form-input{
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(33, 150, 243, 0);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    resize: none; 
+    width: 326px;
+
+}
+
+.footer-form-btn{
+  display: flex;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+  height: 45px;
+  padding: 10px 28px;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.footer-form-btn p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  margin: 0 auto;
+ 
+
+}
+.icon-sendd {
+  margin-left: 30px;
+}
+.foot-container {
+  margin-top: 50px;
+}
+
 
