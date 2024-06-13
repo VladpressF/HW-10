@@ -516,36 +516,25 @@ font-weight: 700;
   margin-top: 50px;
 }
 
-.iconka1 {
-  margin-right: 7px;
-  margin-top: 10px;
-}
-.iconka1:hover {
-  color: var(--clr);
-  background-color: var(--clr);
-}
-.form-input-first {
+
+
+.label-inputs {
   position: relative;
 }
-.svg1 {
-  position: absolute ;
-  top: 18%;
-  left: 9%;
+.svg-form {
+  position: absolute;
+  top:  50px;
+  left: 15px;
+  
 }
-.form-input-second {
-  position: relative;
+.form-input:focus + .svg-form {
+  border: 2px solid #2196F3;
+  border-radius: 2px;
+  outline-width: 0;
+  fill:#2196F3 ;
 }
-.svg2 {
-  position: absolute ;
-  top: 32%;
-  left: 9%;
-}
-.form-input-third {
-  position: relative;
-}
-.svg3 {
-  position: absolute ;
-  top: 46%;
-  left: 9%;
-}
+.label-inputs:focus-within .svg-form {
+  fill: #2196F3 !important;
+  }
+
 
