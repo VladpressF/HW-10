@@ -524,5 +524,28 @@ font-weight: 700;
   color: var(--clr);
   background-color: var(--clr);
 }
-
+.form-input-first {
+  position: relative;
+}
+.svg1 {
+  position: absolute ;
+  top: 18%;
+  left: 9%;
+}
+.form-input-second {
+  position: relative;
+}
+.svg2 {
+  position: absolute ;
+  top: 32%;
+  left: 9%;
+}
+.form-input-third {
+  position: relative;
+}
+.svg3 {
+  position: absolute ;
+  top: 46%;
+  left: 9%;
+}
 
