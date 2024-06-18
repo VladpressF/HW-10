@@ -522,19 +522,38 @@ font-weight: 700;
   position: relative;
 }
 .svg-form {
-  position: absolute;
-  top:  50px;
-  left: 15px;
+
+  fill: #212121;
   
 }
 .form-input:focus + .svg-form {
-  border: 2px solid #2196F3;
   border-radius: 2px;
-  outline-width: 0;
   fill:#2196F3 ;
 }
+
+  
+
 .label-inputs:focus-within .svg-form {
   fill: #2196F3 !important;
   }
 
+.svg1 {
+  position: absolute;
+  top: 53px;
+  left: 15px;
+}
+.svg2 {
+  position: absolute;
+  top: 73px;
+  left: 15px;
+}
+.svg3 {
+  position: absolute;
+  top: 65px;
+  left: 15px;
+}
+.form-input {
+  padding-left: 30px !important;
+  box-sizing: border-box;
+}
 
