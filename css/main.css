@@ -524,6 +524,12 @@ font-weight: 700;
 .svg-form {
 
   fill: #212121;
+  position: absolute;
+  bottom: 4px;
+  right: 475px;
+  width: 14px;
+  height: 14px;
+  
   
 }
 .form-input:focus + .svg-form {
@@ -537,21 +543,14 @@ font-weight: 700;
   fill: #2196F3 !important;
   }
 
-.svg1 {
+/* .svg1 {
   position: absolute;
   top: 53px;
   left: 15px;
-}
-.svg2 {
-  position: absolute;
-  top: 73px;
-  left: 15px;
-}
-.svg3 {
-  position: absolute;
-  top: 65px;
-  left: 15px;
-}
+} */
+
+
+
 .form-input {
   padding-left: 30px !important;
   box-sizing: border-box;
