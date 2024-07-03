@@ -397,6 +397,16 @@ text-align: left;
 .but:not(:last-child) {
   margin-right: 8px;
 }
+.header-nav-list.current a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px; /* товщина підкреслення */
+  background-color: #007bff; /* колір підкреслення */
+  margin-top: 2px; /* відступ між текстом і підкресленням */
+}
+
+
 
 
 
