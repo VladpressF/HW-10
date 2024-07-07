@@ -41,7 +41,7 @@ body {
 }
 
 .header-mail {
-  color: var(--clr);
+  color:#212121 ;
   font-size: 14px;
   font-weight: 500;
   text-align: left;
@@ -49,6 +49,9 @@ body {
   justify-content: right;
   padding-right: 20px;
   text-decoration: none;
+}
+.header-mail:hover {
+  color: var(--clr);
 }
 
 .header-tel {
@@ -543,11 +546,6 @@ font-weight: 700;
   fill: #2196F3 !important;
   }
 
-/* .svg1 {
-  position: absolute;
-  top: 53px;
-  left: 15px;
-} */
 
 
 
@@ -555,4 +553,18 @@ font-weight: 700;
   padding-left: 30px !important;
   box-sizing: border-box;
 }
-
+.header_nav_link {
+  position: relative;
+  padding-bottom: 10px;
+}
+.header-nav-item_active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: var(--clr);
+  bottom: 0;
+  left: 0;
+  
+  
+}

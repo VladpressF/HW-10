@@ -131,7 +131,15 @@ label {
     line-height: 171%;
     letter-spacing: 1px;
 }
-
+label p {
+    color: #757575;
+    padding-bottom: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: auto;
+    text-align: start;
+    margin: 0;
+}
 .checkbox-link {
     color: #2196F3;
 }
@@ -148,6 +156,7 @@ label {
     border-radius: 4px;
     margin-top: 10px;
     cursor: pointer;
+  margin-left: 140px;
 }
 
 .form-btn:hover {
