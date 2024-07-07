@@ -341,6 +341,7 @@ text-align: left;
   flex-basis: calc((100% - 60px) / 3);
   border: 1px solid rgba(238, 238, 238, 1) ;
   gap: 30px ;
+  position: relative;
 }
 .foot-container-1 {
   font-family: "Roboto" , sans-serif;
@@ -407,13 +408,7 @@ text-align: left;
   background-color: #007bff; /* колір підкреслення */
   margin-top: 2px; /* відступ між текстом і підкресленням */
 }
-.overlay:hover {
 
- background: rgba(33, 150, 243, 0.9);
-
-
-
-}
 .header_nav_link {
   position: relative;
   padding-bottom: 10px;
@@ -430,7 +425,44 @@ text-align: left;
     
     
   }
+  .figm {
+    display: block;
+    width: 100%;
 
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(33, 150, 243, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.sec2:hover .overlay {
+  opacity: 1;
+}
+.overlay p {
+  color: white;
+  font-size: 20px;
+   text-align: center;
+ 
+
+    z-index: 2; 
+
+}
+.texnokrak + .vtexnokrak {
+  z-index: 0; 
+  position: relative;
+}
 
 
 
