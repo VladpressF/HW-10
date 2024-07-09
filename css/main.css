@@ -15,6 +15,7 @@ body {
   list-style: none;
   display: flex;
   justify-content: center;
+  height: 30px;
 }
 
 .header-nav-item a {
@@ -41,7 +42,7 @@ body {
 }
 
 .header-mail {
-  color:#212121 ;
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   text-align: left;
@@ -239,7 +240,7 @@ table {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #2f303a;
-  height: 200px ;
+  height: 200px;
 }
 
 .footer address {
@@ -370,10 +371,9 @@ table {
   padding-bottom: 50px;
 }
 .regular-clients-list {
-  display: flex; 
+  display: flex;
   list-style-type: none;
   justify-content: space-between;
-
 }
 
 .regular-clients-item i {
@@ -381,17 +381,14 @@ table {
   width: 250px;
   color: #afb1b8;
   height: 250px;
-  border: 0px ;
+  border: 0px;
   border-radius: 10px 10px;
-
 }
 .regular-clients-link {
   text-decoration: none;
-
 }
 
 .regular-clients-link i:hover {
-
   outline: 1px solid #4b91f7;
   color: #4b91f7;
 }
@@ -421,7 +418,13 @@ table {
   padding-right: 5px;
 }
 .regular-clients-item i {
-  border: 1px solid rgba(175, 177, 184, 1);
+  
+  padding: 10px;
+}
+.regular-clients-item i :hover {
+ padding: 100px;
+ color: rgba(33, 150, 243, 1);
+
 }
 .foot-list-link i:hover {
   background-color: rgba(33, 150, 243, 1);
@@ -436,8 +439,7 @@ table {
   position: relative;
   top: 202px;
   font-size: 18px;
-font-weight: 700;
-
+  font-weight: 700;
 
   background-color: rgba(47, 48, 58, 0.8);
   width: 370px;
@@ -449,24 +451,19 @@ font-weight: 700;
   align-items: center;
 }
 .thumb-span {
-
-  
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  
-
 }
-.footer-form{
+.footer-form {
   margin-right: 50px;
   position: absolute;
   top: 25%;
   left: 50%;
   float: right;
-  
 }
 
-.footer-form-header{
+.footer-form-header {
   font-size: 14px;
   font-weight: 500;
   color: #fff;
@@ -475,23 +472,22 @@ font-weight: 700;
   letter-spacing: 1.5px;
 }
 
-.footer-form-wrap{
+.footer-form-wrap {
   display: flex;
   justify-content: flex-end;
 }
 
-.footer-form-input{
-    padding: 15px 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background-color: rgba(33, 150, 243, 0);
-    border-radius: 4px;
-    margin-bottom: 10px;
-    resize: none; 
-    width: 326px;
-
+.footer-form-input {
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(33, 150, 243, 0);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  resize: none;
+  width: 326px;
 }
 
-.footer-form-btn{
+.footer-form-btn {
   display: flex;
   border: none;
   border-radius: 4px;
@@ -509,8 +505,6 @@ font-weight: 700;
   font-weight: 700;
   line-height: 25px;
   margin: 0 auto;
- 
-
 }
 .icon-sendd {
   margin-left: 30px;
@@ -519,35 +513,25 @@ font-weight: 700;
   margin-top: 50px;
 }
 
-
-
 .label-inputs {
   position: relative;
 }
 .svg-form {
-
   fill: #212121;
   position: absolute;
   bottom: 4px;
   right: 475px;
   width: 14px;
   height: 14px;
-  
-  
 }
 .form-input:focus + .svg-form {
   border-radius: 2px;
-  fill:#2196F3 ;
+  fill: #2196f3;
 }
 
-  
-
 .label-inputs:focus-within .svg-form {
-  fill: #2196F3 !important;
-  }
-
-
-
+  fill: #2196f3 !important;
+}
 
 .form-input {
   padding-left: 30px !important;
@@ -555,8 +539,9 @@ font-weight: 700;
 }
 .header_nav_link {
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 70px;
 }
+
 .header-nav-item_active::after {
   content: "";
   position: absolute;
@@ -565,6 +550,15 @@ font-weight: 700;
   background-color: var(--clr);
   bottom: 0;
   left: 0;
-  
-  
+}
+.section-four-link-item i {
+  border: 0px;
+  border-radius: 50%;
+}
+.regular-clients li {
+}
+.regular-clients-link a {
+  width: 164px;
+  height: 90px;
+  display: inline-block;
 }

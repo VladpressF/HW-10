@@ -411,7 +411,7 @@ text-align: left;
 
 .header_nav_link {
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 60px;
 }
 
   .header-nav-item_active::after {
@@ -436,7 +436,7 @@ text-align: left;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 70%;
+    height: 76%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
@@ -463,7 +463,9 @@ text-align: left;
   z-index: 0; 
   position: relative;
 }
-
+.header-nav-list {
+  height: 30px;
+}
 
 
 

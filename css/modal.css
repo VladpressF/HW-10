@@ -163,10 +163,14 @@ label p {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
-.form-input:not(:placeholder-shown):required:valid {
+/* .form-input:not(:placeholder-shown):required:valid {
     border-color: #2196F3;
-}
+} */
 
 .form-input:not(:placeholder-shown):required:invalid {
     border-color: red;
+}
+.form-input:focus {
+    outline: 0;
+    border: 1px solid #2196F3;
 }
