@@ -361,8 +361,9 @@ table {
   color: #ffffff;
   background-color: #4b91f7;
   border: 0px;
-  border-radius: 15px 15px;
+  border-radius: 50%;
 }
+
 .regular-clients {
   height: 200px;
 }
@@ -391,6 +392,8 @@ table {
 .regular-clients-link i:hover {
   outline: 1px solid #4b91f7;
   color: #4b91f7;
+
+
 }
 .regular-clients-link:hover.regular-clients i {
   color: #4b91f7;
@@ -402,7 +405,7 @@ table {
 }
 .foot-list i {
   color: white;
-  border: 10px solid rgba(255, 255, 255, 0.1);
+  padding: 10px;
   border-radius: 50%;
 }
 .foot-list {
