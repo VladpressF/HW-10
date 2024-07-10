@@ -35,10 +35,15 @@ body {
   color: #212121;
   vertical-align: top;
   color: var(--clr);
+ 
 }
 
 .header-nav-item:hover a {
   color: var(--clr);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .header-mail {
@@ -53,6 +58,9 @@ body {
 }
 .header-mail:hover {
   color: var(--clr);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-tel {
@@ -68,6 +76,9 @@ body {
 
 .header-tel:hover {
   color: var(--clr);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .efektivni {
@@ -344,6 +355,9 @@ table {
 }
 .span-icons i:hover {
   background-color: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-four-link-list {
   display: flex;
@@ -362,6 +376,9 @@ table {
   background-color: #4b91f7;
   border: 0px;
   border-radius: 50%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-clients {
@@ -392,11 +409,17 @@ table {
 .regular-clients-link i:hover {
   outline: 1px solid #4b91f7;
   color: #4b91f7;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
 .regular-clients-link:hover.regular-clients i {
   color: #4b91f7;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foot-h3 {
   color: white;
@@ -427,11 +450,17 @@ table {
 .regular-clients-item i :hover {
  padding: 100px;
  color: rgba(33, 150, 243, 1);
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+ background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .foot-list-link i:hover {
   background-color: rgba(33, 150, 243, 1);
   color: white;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .thumb-img {
   width: 370px;
