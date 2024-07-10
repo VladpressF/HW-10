@@ -377,6 +377,22 @@ text-align: left;
   text-decoration: none;
   
 }
+.header-tel + .header-mail {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  justify-content: right;
+  padding-right: 20px;
+  text-decoration: none;
+}
+.header-tel:hover {
+  color: var(--clr);
+}
+.header-mail:hover{
+  color: var(--clr);
+}
 .figures img {
   width: 100%;
 }
@@ -436,7 +452,7 @@ text-align: left;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 76%;
+    height: 69%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
@@ -447,7 +463,7 @@ text-align: left;
     align-items: center;
     z-index: 1;
 }
-.sec2:hover .overlay {
+.sec2 .overlay:hover {
   opacity: 1;
 }
 .overlay p {
@@ -465,6 +481,9 @@ text-align: left;
 }
 .header-nav-list {
   height: 30px;
+}
+.overlay2:hover {
+  height: 76%;
 }
 
 
